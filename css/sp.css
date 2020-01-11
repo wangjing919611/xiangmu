@@ -1,0 +1,163 @@
+body{
+    background-color: wheat;
+}
+.h {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.head {
+    width: 100%;
+    height: 58px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.h1 {
+    color: rgb(255, 180, 0);
+    font-size: 36px;
+    font-family: "宋体";
+    font-weight: bold;
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box {
+    font-size: 20px;
+    font-family: "宋体";
+}
+
+.input {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(#999, #fff);
+    position: absolute;
+    right: 240px;
+    bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 5px;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(#999, #fff);
+    color: black;
+    border-left: black solid 0.5px;
+    height: 30px;
+    width: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 178px;
+    bottom: 14px;
+    font-size: 18px;
+}
+
+.button>a{
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: #eee;
+    bottom: 15px;
+}
+
+.content {
+    width: 100%;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 120px;
+}
+.center{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: "楷体";
+}
+.center>span{
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 2px solid #f90000;
+    padding-bottom: 5px;
+    
+   
+}
+.content-head{
+    width: 100%;
+    background-color: #fff;
+}
+.content-head-con{
+    width: 100%;
+}
+.content-head-con>div:first-child{
+    text-align: left;
+    font-size: 16px;
+}
+.content-head-con>div:first-child>span{
+    background-color: #fff;
+    display: inline-block;
+   width: 50px;
+   height: 26px;
+   line-height: 26px;
+   text-align: center;
+}
+.content-head-con>div:first-child>span:hover{
+    background-color: #f00;
+    color: white;
+}
+
+.b1{
+    display: block;
+    width: 100%;
+}
+.b2{
+    display: none;
+    width: 100%;
+}
+.b3{
+    display: none;
+    width: 100%;
+}
+.b4{
+    display: none;
+    width: 100%;
+}
+.b-box{
+    display: flex;
+    width: 100%;
+   
+}
+
+.content-zaocan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+.content-zaocan>div{
+    width: 23%;
+    background-color: #fff;
+}
+.content-zaocan>div>div{
+    width: 100%;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+
+.content-zaocan>div>div>span{
+    font-size: 12px;
+    color: #999;
+}

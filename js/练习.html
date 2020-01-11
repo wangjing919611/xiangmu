@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+    <title>RunJS 演示代码</title>
+    <script>
+        onload=function(){
+            b.style.display="none";
+            a.onmouseenter=function(){
+                b.style.display="block";
+            };
+            a.onmouseleave = function(){
+                b.style.display="none";
+            };
+        };
+    </script>
+  </head>
+<body>
+    <div id="a">aaaa
+            <div id="b">
+                bbbb
+            </div>
+    </div>
+  </body>
+</html>
